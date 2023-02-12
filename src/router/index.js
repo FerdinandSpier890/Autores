@@ -2,6 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+import Registrar from '../views/RegistrarView.vue'
+import ListaAutores from '../views/AutoresView.vue'
+import BusquedaAutor from '../views/BuscarAutorView.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -19,7 +23,22 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
     }
-  }
+  },
+  {
+    path: '/registrar',
+    name: 'registrar',
+    component: Registrar
+  },
+  {
+    path: '/lista',
+    name: 'lista',
+    component: ListaAutores
+  },
+  {
+    path: '/busqueda',
+    name: 'busqueda',
+    component: BusquedaAutor
+  },
 ]
 
 const router = new VueRouter({
