@@ -30,7 +30,7 @@
         autorLibroGuid: "",
         record: null,
         headers: [
-          { text: "ID", align: "left", value: "autorLibroId" },
+          { text: "ID", value: "autorLibroId" },
           { text: "Nombre", value: "nombre" },
           { text: "Apellido", value: "apellido" },
           { text: "Fecha de Nacimiento", value: "fechaNacimiento" },
