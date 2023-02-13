@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 
 import Registrar from '../views/RegistrarView.vue'
 import ListaAutores from '../views/AutoresView.vue'
-import BusquedaAutor from '../views/BuscarAutorView.vue'
+import BusquedaAutor from '../views/BuscarAutor.vue'
 
 Vue.use(VueRouter)
 

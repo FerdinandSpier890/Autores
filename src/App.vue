@@ -28,7 +28,7 @@
       <div id="nav">
         <router-link to="/">Inicio</router-link> |
         <router-link to="/registrar">Registro de Autor</router-link> |
-        <router-link to="/busqueda">Busqueda de Autor po ID</router-link> |
+        <router-link to="/busqueda">Busqueda de Autor por GUID</router-link> |
         <router-link to="/lista">Lista de Autores Registrados</router-link> |
       </div>
 
